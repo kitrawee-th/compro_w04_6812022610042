@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    char nameInitial = 'K';            
-    int age = 20;                     
-    float weight = 48.50;              
-    char gender[] = "Female";          
+    // ประกาศตัวแปร
+    char nameInitial = 'K';            //ตัวอักษรแรกของชื่อ
+    int age = 20;                     //อายุ (จำนวนเต็ม)
+    float weight = 48.50;           //น้ำหนัก(จำนวนทศนิยม 1 ตำแหน่ง)   
+    char gender[] = "Female";          //เพศ (เป็นข้อความ)
 
     
     printf("nameInitial = %c\n", nameInitial);
